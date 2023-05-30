@@ -12,8 +12,11 @@ parameters = [
   { name = "dev.user.MONGO_URL", value = "mongodb://mongodb-dev.devops2023sk.online:27017/users" },
   { name = "dev.cart.REDIS_HOST", value = "redis-dev.devops2023sk.online" },
   { name = "dev.cart.CATALOGUE_HOST", value = "catalogue-dev.devops2023sk.online" },
-  { name = "dev.cart.CATALOGUE_PORT", value = "8080" }
+  { name = "dev.cart.CATALOGUE_PORT", value = "8080" },
+  { name = "dev.shipping.CART_ENDPOINT", value = "cart-dev.devops2023sk.online:8080" },
+  { name = "dev.shipping.DB_HOST", value = "mysql-dev.devops2023sk.online" },
+  { name = "dev.shipping.db_user", value = "root" },
+  { name = "dev.shipping.db_pass", value = "RoboShop@1" }
 
 
 ]
-
