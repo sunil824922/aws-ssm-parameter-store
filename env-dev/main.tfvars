@@ -24,8 +24,6 @@ parameters = [
   { name = "dev.payment.AMQP_USER", value = "roboshop" },
   { name = "dev.docdb.db_endpoint", value = "docdb-dev.cluster-cxabyfczvvvl.us-east-1.docdb.amazonaws.com" },
 
-
-
 ]
 
 
